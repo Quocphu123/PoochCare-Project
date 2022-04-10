@@ -4,4 +4,13 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.header h1 {
+  background-color: red;
+  color: yellow;
+}
+
+.about p {
+  background-color: green;
+}
 /*# sourceMappingURL=main.css.map */

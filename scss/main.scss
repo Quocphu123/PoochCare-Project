@@ -1,8 +1,13 @@
 // Helpers
+@import "./Helpers/variable";
 // Vendors
 // Base
+@import "./Base/reset";
 // Components
 // Layouts
+@import "./Layouts/header";
+@import "./Layouts/footer";
 // Pages
-@import "./Base/reset";
+@import "./Pages/home";
+@import "./Pages/about";
 // Themes
