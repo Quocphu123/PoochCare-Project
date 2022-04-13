@@ -12,6 +12,19 @@
   padding: 0 15px;
 }
 
+.links-hover {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #189a46;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.links-hover:hover {
+  color: #189a46;
+}
+
 .header {
   background-color: #fff;
   position: fixed;
@@ -116,11 +129,18 @@
   border: 2px solid #fff;
   border-radius: 12px;
   margin-right: 8px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .carousel .item .text .links a:nth-child(1) {
   background-color: #fff;
   color: #189a46;
+}
+
+.carousel .item .text .links a:nth-child(2):hover {
+  color: #189a46;
+  background-color: #fff;
 }
 
 .carousel .item::before {
@@ -178,7 +198,190 @@
   width: 30px;
 }
 
-.about p {
-  background-color: green;
+.abouts .container {
+  padding: 6rem 17rem;
+  text-align: center;
+}
+
+.abouts .container h4 {
+  color: #f53626;
+  font-weight: 400;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.abouts .container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.abouts .container p {
+  color: #696969;
+  line-height: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.services {
+  background-color: rgba(147, 107, 232, 0.05);
+  padding: 90px 0;
+}
+
+.services .container .row {
+  margin: -15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services .container .row .col {
+  width: calc(100% / 3);
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.services .container .row .col .item {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.services .container .row .col .item i {
+  color: #189a46;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services .container .row .col .item h3 {
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.services .container .row .col .item h3:hover {
+  color: #189a46;
+}
+
+.services .container .row .col .item p {
+  margin-bottom: 20px;
+  color: #696969;
+  line-height: 28px;
+}
+
+.services .container .row .col .item:hover {
+  background: rgba(147, 107, 232, 0.05);
+}
+
+.offer .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6rem 0;
+}
+
+.offer .container .row .col {
+  width: 50%;
+  padding: 0 1rem;
+}
+
+.offer .container .row .col .item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.offer .container .row .col .item1 {
+  padding-left: 2rem;
+}
+
+.offer .container .row .col .item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding-right: 2rem;
+}
+
+.offer .container .row .col .item2 h4 {
+  color: #f53626;
+  font-weight: 400;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.offer .container .row .col .item2 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.offer .container .row .col .item2 p {
+  color: #696969;
+  line-height: 1.8rem;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.offer .container .row .col .item2 .info .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px;
+}
+
+.offer .container .row .col .item2 .info .text p {
+  margin: 0;
+  color: #000;
+  font-weight: 600;
+}
+
+.offer .container .row .col .item2 .info .text i {
+  color: #189a46;
+  background: rgba(147, 107, 232, 0.05);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.statistic {
+  background-color: #189a46;
+  padding: 3rem 0;
+}
+
+.statistic .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.statistic .container .row .col {
+  width: 25%;
+}
+
+.statistic .container .row .col .item {
+  text-align: center;
+  color: #fff;
+}
+
+.statistic .container .row .col .item h1 {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
 }
 /*# sourceMappingURL=main.css.map */
