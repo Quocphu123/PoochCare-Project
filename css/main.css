@@ -12,6 +12,172 @@
   padding: 0 15px;
 }
 
+.header {
+  background-color: #fff;
+  position: fixed;
+  top: 2.5rem;
+  width: 100%;
+  z-index: 2020;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.header .container h1 {
+  color: #189a46;
+}
+
+.header .container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container .navbar .active {
+  color: #189a46;
+}
+
+.header .container .navbar a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 400;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.header .container .navbar .link::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #189a46;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  display: block;
+  bottom: 0;
+}
+
+.header .container .navbar .link:hover::after {
+  width: 100%;
+}
+
+.header .container .navbar .link:hover {
+  color: #189a46;
+}
+
+.carousel .item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: calc(100vh - 40px);
+  position: relative;
+  text-transform: capitalize;
+}
+
+.carousel .item .text {
+  position: absolute;
+  bottom: 40%;
+  right: 58%;
+  left: 15%;
+}
+
+.carousel .item .text h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.carousel .item .text p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.carousel .item .text .links a {
+  padding: 14px 36px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  margin-right: 8px;
+}
+
+.carousel .item .text .links a:nth-child(1) {
+  background-color: #fff;
+  color: #189a46;
+}
+
+.carousel .item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: #0c0c0c;
+  opacity: 0.6;
+}
+
+.carousel .item1 {
+  background-image: url(../../img/home/banner1.jpg);
+}
+
+.carousel .item2 {
+  background-image: url(../../img/home/banner2.jpg);
+}
+
+.carousel .item2 .text {
+  left: 40%;
+  right: 24%;
+}
+
+.carousel .item3 {
+  background-image: url(../../img/home/banner3.jpg);
+}
+
+.carousel .item4 {
+  background-image: url(../../img/home/banner4.jpg);
+}
+
+.carousel .item4 .text {
+  left: 40%;
+  right: 24%;
+}
+
+.carousel .owl-dots {
+  margin-top: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 30px;
+}
+
+.carousel .owl-dots .owl-dot.active span,
+.carousel .owl-dots .owl-dot:hover span {
+  background-color: #189a46;
+}
+
+.carousel .owl-dots .owl-dot.active span,
+.carousel .owl-dots .owl-dot:hover span {
+  width: 30px;
+}
+
 .about p {
   background-color: green;
 }

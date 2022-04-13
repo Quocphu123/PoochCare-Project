@@ -1,0 +1,86 @@
+.carousel {
+    .item {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: calc(100vh - 40px);
+        position: relative;
+        text-transform: capitalize;
+        .text {
+            position: absolute;
+            bottom: 40%;
+            right: 58%;
+            left: 15%;
+            h1 {
+                color: #fff;
+                font-size: 4rem;
+            }
+            p {
+                color: #fff;
+                font-size: 1.2rem;
+                margin-bottom: 3rem;
+                margin-top: 1rem;
+            }
+            .links {
+                a {
+                    padding: 14px 36px;
+                    background-color: transparent;
+                    text-decoration: none;
+                    color: #fff;
+                    border: 2px solid #fff;
+                    border-radius: 12px;
+                    margin-right: 8px;
+                }
+                a:nth-child(1) {
+                    background-color: #fff;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    .item::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 100%;
+        left: 0;
+        right: 0;
+        background-color: #0c0c0c;
+        opacity: 0.6;
+    }
+    .item1 {
+        background-image: url(../../img/home/banner1.jpg);
+    }
+    .item2 {
+        background-image: url(../../img/home/banner2.jpg);
+        .text {
+            left: 40%;
+            right: 24%;
+        }
+    }
+    .item3 {
+        background-image: url(../../img/home/banner3.jpg);
+    }
+    .item4 {
+        background-image: url(../../img/home/banner4.jpg);
+        .text {
+            left: 40%;
+            right: 24%;
+        }
+    }
+    .owl-dots {
+        margin-top: 0px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 30px;
+    }
+    .owl-dots .owl-dot.active span,
+    .owl-dots .owl-dot:hover span {
+        background-color: $primary-color;
+    }
+    .owl-dots .owl-dot.active span,
+    .owl-dots .owl-dot:hover span {
+        width: 30px;
+    }
+}
