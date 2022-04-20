@@ -15,3 +15,54 @@
 .links-hover:hover {
     color: $primary-color;
 }
+
+.custom{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+    
+    a{
+        text-decoration: none;
+        color: $primary-color;
+    }
+    .active{
+        position: relative;
+        // display: inline-block;
+        // vertical-align: middle;
+        font-size: 1.0em;
+        line-height: 1.5;
+        font-weight: 400;
+        text-transform: capitalize;
+        color: #fff;
+        padding-left: 10px;
+        i{
+            font-size: 0.8rem;
+            padding-right: 5px;
+        }
+    }
+}
+
+p{
+    margin-top: 1rem;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: $font-color;
+}
+h6{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: $secondary-color;
+    margin-bottom: 6px;
+}
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
