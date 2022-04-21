@@ -11,7 +11,35 @@
         text-align: center;
         color: #fff;
         font-size: 40px;
-        font-weight: 600;    
+        font-weight: 600; 
+        .custom{
+            list-style-type: none;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.25rem 0;
+            
+            a{
+                text-decoration: none;
+                color: $primary-color;
+            }
+            .active{
+                position: relative;
+                // display: inline-block;
+                // vertical-align: middle;
+                font-size: 1.0em;
+                line-height: 1.5;
+                font-weight: 400;
+                text-transform: capitalize;
+                color: #fff;
+                padding-left: 10px;
+                i{
+                    font-size: 0.8rem;
+                    padding-right: 5px;
+                }
+            }
+        }   
     }
     
 }

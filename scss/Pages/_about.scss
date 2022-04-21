@@ -105,7 +105,7 @@
             .history-grids{
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
-                grid-gap: 20px;
+                grid-gap: 40px;
                 margin-top: 40px;
                 h5{
                     color: #fff;
@@ -124,7 +124,7 @@
             padding: 3rem 1.5rem;
             .row{
                 display: flex;
-                padding: 1.5rem;
+                padding: 1rem;
                 margin-right: -15px;
                 margin-left: -15px;
                 .item-1{
@@ -209,7 +209,9 @@
                 max-width: 100%;
                 .item-1{                 
                     .team-img{
+                        position: relative;
                         overflow: hidden;
+                        transition: all ease-in-out;
                         img{
                             width: 100%;
                             border-radius: 15px;
@@ -222,18 +224,18 @@
                     }                  
                     .team-name{
                         text-align: center;
+                        position: relative;
+                        overflow: hidden;
+                        transition: all ease-in-out;
                         a{
                             text-decoration: none;
                             color: #000;
                             font-size: 22px;
                             line-height: 26px;
                             font-weight: 600;
-                        }
+                        }                       
                         .name:hover{
                             color: $primary-color;
-                        }
-                        .name:hover .img-team{
-                            transform: scale(1.1);
                         }
                         p{
                             margin-top: -0.2rem;
@@ -267,6 +269,18 @@
                         }
     
     
+                    }
+                    .team-name .team-img img{
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        transition: all ease-in-out;
+                    }
+                    .team-name:hover .team-img img{
+                        transform: scale(1.1);
+                        transition: all 0.5s ease-out;
+
+
                     }
                
                 }
