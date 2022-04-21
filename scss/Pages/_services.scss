@@ -1,0 +1,51 @@
+.photo{
+    .photo-info{
+        padding: 3rem 0;
+        .container{
+            padding:3rem 1.5rem;
+            .photo-grids{
+                display: flex;
+                margin-right: -15px;
+                margin-left: -15px;
+                border-bottom: 2px solid $border-light;
+                margin-top: 80px;
+                padding-bottom: 80px;
+                align-items: center;
+                .photo-inf-left{
+                    width: 50%;
+                    padding-right: 1.5rem;
+                    padding-left: 1rem;
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 10px;
+                    }
+                }
+                .photo-inf-right{
+                    width: 50%;
+                    padding-right: 1.5rem;
+                    padding-left: 1rem;                  
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 10px;
+                    }
+                    
+                }
+                .pl-lg-5{
+                    padding-left: 3rem;
+                }  
+                .pr-lg-5{
+                    padding-right: 3rem;
+                } 
+            }
+            .mt-0{
+                margin-top: 0;             
+            }
+            .photo-grids:nth-child(4){
+                border: none;
+                 
+            }
+        }
+    }
+}

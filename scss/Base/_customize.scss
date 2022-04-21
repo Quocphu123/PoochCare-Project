@@ -15,3 +15,25 @@
 .links-hover:hover {
     color: $primary-color;
 }
+
+p{
+    margin-top: 1rem;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: $font-color;
+}
+h6{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: $secondary-color;
+    margin-bottom: 6px;
+}
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
