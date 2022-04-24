@@ -174,8 +174,11 @@
                                 text-decoration: none;
                                 text-align: left;
                                 font-weight: 600;
-                                font-size: 24px;
+                                font-size: 20px;
                                 color: #0c0c0c;
+                            }
+                            a:hover{
+                                color: $primary-color;
                             }
                             p{
                                 margin-top: 0.5rem;

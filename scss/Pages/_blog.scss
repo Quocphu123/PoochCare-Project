@@ -2,13 +2,13 @@
     padding: 3rem ;
     background-color: $bg-light;
     .container{
-        padding: 1.5rem ;
+        padding:3rem 1.5rem ;
         .heading{
             margin-bottom: 3rem;
             text-align: center;           
         }
         .row{
-            padding: 1rem;
+            
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: repeat(3, calc(100vw/3));
@@ -50,7 +50,8 @@
                     .author{
                         display: flex;
                         flex-direction: row;
-                        justify-content: flex-start;          
+                        justify-content: flex-start;  
+                        margin-top: 15px;        
                         a{
                             color: #000;
                             font-weight: 400;
@@ -88,12 +89,14 @@
 
         }
         .pagination-wrapper{
+            margin-top: 50px;
             .page-pagination{
                 list-style-type: none;
                 display: block;
                 li{
                     display: inline-block;
                     margin: 0 5px;
+                    
                     span{
                         display: block;
                         text-align: center;
@@ -111,6 +114,7 @@
                         width: 20px;
                         display: block;
                         text-align: center;
+                        text-decoration: none;
                     }
                     .fa-angle-right{
                         font-size: 20px;
