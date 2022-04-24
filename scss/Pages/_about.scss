@@ -218,9 +218,6 @@
                             display: block;
                             transition: all 0.5s ease-out;
                         }
-                        .img-team:hover{
-                            transform: scale(1.1);
-                        }
                     }                  
                     .team-name{
                         text-align: center;
@@ -234,9 +231,6 @@
                             line-height: 26px;
                             font-weight: 600;
                         }                       
-                        .name:hover{
-                            color: $primary-color;
-                        }
                         p{
                             margin-top: -0.2rem;
                             font-size: 16px;
@@ -267,22 +261,22 @@
                             }
                             
                         }
-    
-    
                     }
-                    .team-name .team-img img{
-                        display: block;
-                        height: 100%;
-                        width: 100%;
-                        transition: all ease-in-out;
-                    }
-                    .team-name:hover .team-img img{
+                }
+                .item-1:hover{
+                    .img-team{
                         transform: scale(1.1);
-                        transition: all 0.5s ease-out;
-
-
                     }
-               
+                    .team-name{
+                        .name{
+                            color: $primary-color;
+                        }
+                        .social{
+                            color: $primary-color;
+                        }
+                    }
+
+
                 }
             }
         }
