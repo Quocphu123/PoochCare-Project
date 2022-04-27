@@ -883,6 +883,10 @@ h3 {
   padding: 0 1.5rem;
 }
 
+.updated .container .subscribe input[type="email"]:focus {
+  outline: 1px solid #116e32;
+}
+
 .updated .container .subscribe button {
   color: #fff;
   background-color: #189a46;
@@ -893,6 +897,12 @@ h3 {
   margin-left: 1rem;
   padding: 1.3rem 3rem;
   font-size: 17px;
+  cursor: pointer;
+}
+
+.updated .container .subscribe button:hover {
+  background-color: #116e32;
+  border: #116e32;
 }
 
 .about-us .container {
@@ -1307,6 +1317,152 @@ h3 {
 
 .photo .photo-info .container .photo-grids:nth-child(4) {
   border: none;
+}
+
+.contact .container {
+  padding: 5rem;
+}
+
+.contact .container h4 {
+  color: #f53626;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contact .container p {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contact .container .main {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.contact .container .main .form {
+  width: 65%;
+}
+
+.contact .container .main .form .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .container .main .form .flex input:first-child {
+  margin-right: 1rem;
+}
+
+.contact .container .main .form input {
+  width: 100%;
+  padding: 18px 16px;
+  margin-bottom: 1rem;
+  background: rgba(147, 107, 232, 0.05);
+  border: rgba(147, 107, 232, 0.05);
+  border-radius: 6px;
+}
+
+.contact .container .main .form input:focus {
+  outline: 1px solid #116e32;
+}
+
+.contact .container .main .form textarea {
+  padding: 18px 16px;
+  width: 100%;
+  min-height: 140px;
+  background: rgba(147, 107, 232, 0.05);
+  border: rgba(147, 107, 232, 0.05);
+  border-radius: 6px;
+  resize: none;
+  margin-bottom: 1rem;
+}
+
+.contact .container .main .form textarea:focus {
+  outline: 1px solid #116e32;
+}
+
+.contact .container .main .form button {
+  color: #fff;
+  background-color: #189a46;
+  border-radius: 8px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: none;
+  margin-left: 1rem;
+  padding: 1.2rem 2rem;
+  font-size: 17px;
+  cursor: pointer;
+  float: right;
+}
+
+.contact .container .main .form button:hover {
+  background-color: #116e32;
+  border: #116e32;
+}
+
+.contact .container .main .info {
+  width: 35%;
+  padding-left: 1.5rem;
+}
+
+.contact .container .main .info .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 1.5rem;
+}
+
+.contact .container .main .info .item i {
+  color: #189a46;
+  padding: 0px 1.5rem;
+}
+
+.contact .container .main .info .item .text h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.contact .container .main .info .item .text span {
+  color: #696969;
+  line-height: 23px;
+}
+
+.contact .container .main .info .item .text p {
+  text-align: left;
+  font-size: 15px;
+  color: #696969;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.contact .container .main .info .item .text p a {
+  text-decoration: none;
+  color: #696969;
+}
+
+.contact .container .main .info .item .text p:hover a {
+  color: #189a46;
+  text-decoration: underline;
+}
+
+.map iframe {
+  width: 100%;
 }
 
 .gallery .container {
