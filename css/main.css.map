@@ -12,7 +12,9 @@
         "../scss/Pages/_home.scss",
         "../scss/Pages/_about.scss",
         "../scss/Pages/_services.scss",
-        "../scss/Pages/_blog.scss"
+        "../scss/Pages/_blog.scss",
+        "../scss/Pages/_contact.scss",
+        "../scss/Pages/_gallery.scss"
     ],
     "names": [],
     "file": "main.css"
