@@ -478,6 +478,9 @@
                 border: 1px solid #ced4da;
                 padding: 0 1.5rem;
             }
+            input[type="email"]:focus {
+                outline: 1px solid $border-hover;
+            }
             button {
                 color: #fff;
                 background-color: #189a46;
@@ -488,6 +491,11 @@
                 margin-left: 1rem;
                 padding: 1.3rem 3rem;
                 font-size: 17px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: $bg-hover;
+                border: $border-hover;
             }
         }
     }
