@@ -50,6 +50,7 @@
                 .links-hover{
                     font-size: 17px;
                     margin-top: 20px;
+                    width: 13%;
                 }
 
             }
@@ -286,3 +287,171 @@
     }
 
 }
+@media screen and (max-width: 736px){
+    .reason .reason-main {
+        .container{
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                .item-1{
+                    width: 100%;
+                    text-align: left;
+                }
+                .item-2{
+                    margin-top: 50px;
+                    width: 100%;
+                    position: relative;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    .item-grids{
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        width: 100%;
+                        .item-icon{
+                            width: 100%;
+                            margin-bottom: 14px;
+                            text-align: center;
+                        }
+                        .item-info{
+                            width: 100%;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }    
+    } 
+    .history .container .content .history-grids{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .reason .reason-main {
+        .container{
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                .item-1{
+                    width: 100%;
+                    text-align: left;
+                }
+                .item-2{
+                    margin-top: 50px;
+                    width: 100%;
+                    position: relative;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    .item-grids{
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        width: 100%;
+                        .item-icon{
+                            width: 100%;
+                            margin-bottom: 14px;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }    
+    } 
+    .team .team-main{
+        padding: 0;
+        .container{
+            .row{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 30px;
+                .item-1 .team-name a{
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+        }
+
+    }
+    
+}
+
+
+@media screen and (max-width: 992px){
+    .about-us .container{
+        width: 100%;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            align-items: flex-start;      
+            width: 100%;
+            .item-1{
+                width: 100%;
+            }
+            .item-2{
+                padding: 0;
+                width: 100%;
+            }
+        }    
+    }
+    .history .container .content{
+        margin-left: auto;
+        max-width: 640px;
+        text-align: left;
+    }
+    .reason .reason-main {
+        .container{
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                .item-1{
+                    width: 100%;
+                    text-align: left;
+                }
+                .item-2{
+                    margin-top: 50px;
+                    width: 100%;
+                    position: relative;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+            }
+        }    
+    } 
+    .team .team-main{
+        padding: 0;
+        .container{
+            .row{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 30px;
+            }
+        }
+
+    }
+    
+
+
+}
+
