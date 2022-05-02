@@ -95,3 +95,41 @@
         }
     }
 }
+@media screen and (max-width: 576px){
+    .footer .container .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: flex-start;      
+        width: 100%;
+        .contact{
+            width: 100%;
+            .info{
+                margin-top: 3rem;
+                display: grid;
+                grid-template-columns:1fr 1fr;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 762px) {
+    .footer .container .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: flex-start;      
+        width: 100%;
+        .contact{
+            width: 100%;
+            .info .info-list{
+                margin-top: 3rem;
+            }
+        }
+    }       
+}
