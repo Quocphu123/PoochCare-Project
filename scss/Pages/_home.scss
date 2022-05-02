@@ -162,6 +162,7 @@
         .row {
             display: flex;
             padding: 6rem 0;
+            flex-wrap: wrap;
             .col {
                 width: 50%;
                 padding: 0 1rem;
@@ -240,6 +241,9 @@
                     h1 {
                         font-size: 3rem;
                         margin-bottom: 0.8rem;
+                    }
+                    p {
+                        color: #fff;
                     }
                 }
             }
@@ -496,6 +500,164 @@
             button:hover {
                 background-color: $bg-hover;
                 border: $border-hover;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .carousel {
+        .item {
+            min-height: 400px;
+            width: 100%;
+            .text {
+                position: absolute;
+                left: 5%;
+                top: 18%;
+                bottom: 0;
+                right: 0;
+                h1 {
+                    font-size: 2rem;
+                }
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .abouts {
+        .container {
+            padding: 5rem 1rem;
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+    }
+    .services {
+        padding: 60px 0;
+        .container {
+            .row {
+                .col {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .offer {
+        .container {
+            .row {
+                padding: 4rem 0;
+                .col {
+                    width: 100%;
+                    padding: 0;
+                    .item {
+                        padding: 0;
+                    }
+                    .item2 {
+                        padding-top: 3rem;
+                        h1 {
+                            font-size: 1.7rem;
+                        }
+                        p {
+                            line-height: 1.6rem;
+                            margin-top: 0;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .statistic {
+        .container {
+            .row {
+                flex-wrap: wrap;
+                .col {
+                    width: 50%;
+                    .item {
+                        padding: 2rem 0;
+                        h1 {
+                            font-size: 2.2rem;
+                            margin-bottom: 0.6rem;
+                        }
+                        p {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .plans {
+        .container {
+            h4 {
+                font-weight: 600;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            .row {
+                padding: 0 1rem;
+                flex-wrap: wrap;
+                .col {
+                    width: 100%;
+                    .item {
+                        .buyBtn {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .food {
+        .container {
+            padding: 3rem 1rem;
+            h1 {
+                font-size: 1.6rem;
+            }
+            .video {
+                iframe {
+                    width: 340px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+    .feedbacks {
+        .container {
+            padding: 4rem 1rem;
+            h1 {
+                font-size: 1.6rem;
+            }
+            .clients {
+                .owl-item {
+                    width: 345px !important;
+                }
+                .owl-dots {
+                    display: none;
+                }
+            }
+        }
+    }
+    .updated {
+        .container {
+            padding: 5rem 1rem;
+            h1 {
+                font-size: 1.6rem;
+            }
+            .subscribe {
+                flex-wrap: wrap;
+                input {
+                    width: 100%;
+                    height: 60px;
+                    margin-bottom: 1rem;
+                }
+                button {
+                    width: 100%;
+                    margin-left: 0;
+                }
             }
         }
     }
