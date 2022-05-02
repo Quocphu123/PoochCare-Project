@@ -117,6 +117,43 @@ h3 {
   color: #189a46;
 }
 
+.header .container .nav-bars {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    width: 100%;
+  }
+  .header .container {
+    padding: 20px 15px;
+  }
+  .header .container h1 {
+    font-size: 1.8rem;
+  }
+  .header .container .navbar {
+    display: none;
+  }
+  .header .container .nav-bars {
+    display: block;
+  }
+  .header .container .nav-bars a {
+    text-decoration: none;
+  }
+  .header .container .nav-bars a .icon {
+    color: #696969;
+    width: 50px;
+    font-size: 1.4rem;
+  }
+  .header .container .nav-bars .bars {
+    color: #fff;
+    padding: 6px 8px;
+    font-size: 24px;
+    background: #189a46;
+    border-radius: 5px;
+  }
+}
+
 .footer {
   background-color: #111;
 }
@@ -545,6 +582,8 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   padding: 6rem 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .offer .container .row .col {
@@ -647,6 +686,10 @@ h3 {
 .statistic .container .row .col .item h1 {
   font-size: 3rem;
   margin-bottom: 0.8rem;
+}
+
+.statistic .container .row .col .item p {
+  color: #fff;
 }
 
 .plans {
@@ -959,6 +1002,135 @@ h3 {
 .updated .container .subscribe button:hover {
   background-color: #116e32;
   border: #116e32;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel .item {
+    min-height: 400px;
+    width: 100%;
+  }
+  .carousel .item .text {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    bottom: 0;
+    right: 0;
+  }
+  .carousel .item .text h1 {
+    font-size: 2rem;
+  }
+  .carousel .item .text p {
+    font-size: 1rem;
+  }
+  .abouts .container {
+    padding: 5rem 1rem;
+  }
+  .abouts .container h1 {
+    font-size: 1.7rem;
+  }
+  .services {
+    padding: 60px 0;
+  }
+  .services .container .row .col {
+    width: 100%;
+    padding: 0;
+  }
+  .offer .container .row {
+    padding: 4rem 0;
+  }
+  .offer .container .row .col {
+    width: 100%;
+    padding: 0;
+  }
+  .offer .container .row .col .item {
+    padding: 0;
+  }
+  .offer .container .row .col .item2 {
+    padding-top: 3rem;
+  }
+  .offer .container .row .col .item2 h1 {
+    font-size: 1.7rem;
+  }
+  .offer .container .row .col .item2 p {
+    line-height: 1.6rem;
+    margin-top: 0;
+    font-size: 0.8rem;
+  }
+  .statistic .container .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .statistic .container .row .col {
+    width: 50%;
+  }
+  .statistic .container .row .col .item {
+    padding: 2rem 0;
+  }
+  .statistic .container .row .col .item h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
+  }
+  .statistic .container .row .col .item p {
+    margin-top: 0;
+  }
+  .plans .container h4 {
+    font-weight: 600;
+  }
+  .plans .container h1 {
+    font-size: 1.7rem;
+  }
+  .plans .container .row {
+    padding: 0 1rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .plans .container .row .col {
+    width: 100%;
+  }
+  .plans .container .row .col .item .buyBtn {
+    display: none;
+  }
+  .food .container {
+    padding: 3rem 1rem;
+  }
+  .food .container h1 {
+    font-size: 1.6rem;
+  }
+  .food .container .video iframe {
+    width: 340px;
+    height: 200px;
+  }
+  .feedbacks .container {
+    padding: 4rem 1rem;
+  }
+  .feedbacks .container h1 {
+    font-size: 1.6rem;
+  }
+  .feedbacks .container .clients .owl-item {
+    width: 345px !important;
+  }
+  .feedbacks .container .clients .owl-dots {
+    display: none;
+  }
+  .updated .container {
+    padding: 5rem 1rem;
+  }
+  .updated .container h1 {
+    font-size: 1.6rem;
+  }
+  .updated .container .subscribe {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .updated .container .subscribe input {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 1rem;
+  }
+  .updated .container .subscribe button {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .about-us .container {
@@ -1817,7 +1989,7 @@ h3 {
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1280px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
   .blog {
     padding: 1.5rem;
   }

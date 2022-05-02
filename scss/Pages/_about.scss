@@ -336,7 +336,7 @@
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: $mobile-flip){
     .reason .reason-main {
         .container{
             .row{
@@ -391,7 +391,7 @@
 }
 
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: $tablet){
     .about-us .container{
         width: 100%;
         .row{
