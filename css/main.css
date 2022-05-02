@@ -1106,12 +1106,6 @@ h3 {
   .feedbacks .container h1 {
     font-size: 1.6rem;
   }
-  .feedbacks .container .clients .owl-item {
-    width: 345px !important;
-  }
-  .feedbacks .container .clients .owl-dots {
-    display: none;
-  }
   .updated .container {
     padding: 5rem 1rem;
   }
