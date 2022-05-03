@@ -4,6 +4,30 @@
     padding: 0 15px;
 }
 
+@media screen and (min-width: $large-screen) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: $laptop) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: $mobile-flip) {
+    .container {
+        max-width: 540px;
+    }
+}
+
 .links-hover {
     text-decoration: none;
     color: #000;
@@ -16,13 +40,14 @@
     color: $primary-color;
 }
 
-p{
+p {
     margin-top: 1rem;
     font-size: 1.2em;
     line-height: 28px;
     color: $font-color;
 }
-h6{
+
+h6 {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
@@ -31,7 +56,8 @@ h6{
     color: $secondary-color;
     margin-bottom: 6px;
 }
-h3{
+
+h3 {
     font-size: 40px;
     font-weight: 600;
     line-height: 48px;
