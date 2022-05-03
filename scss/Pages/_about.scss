@@ -1,14 +1,12 @@
 
 .about-us{
     .container{
-        padding: 3rem 1.5rem;
+        padding: 3rem 1rem;
         .row{
             display: flex;
             flex-direction: row;
             align-items: center;
-            padding: 1.5rem ;
-            margin-right: -15px;
-            margin-left: -15px;
+            margin: -15px 0;
             .item-1{
                 width: 40%;
                 .sub-title{
@@ -50,7 +48,7 @@
                 .links-hover{
                     font-size: 17px;
                     margin-top: 20px;
-                    width: 13%;
+                    width: 15%;
                 }
 
             }
@@ -76,7 +74,7 @@
         z-index: -1;
     }
     .container{
-        padding:3rem 1.5rem;
+        padding:3rem 1rem;
         .content{
             margin-left: 550px;
             text-align: left;
@@ -122,7 +120,7 @@
     .reason-main{
         padding: 3rem 0;
         .container{
-            padding: 3rem 1.5rem;
+            padding: 3rem 1rem;
             .row{
                 display: flex;
                 padding: 1rem;
@@ -201,7 +199,6 @@
         padding: 3rem ;
         background-color: $bg-light;
         .container{
-            padding: 1.5rem;
             .title-content{
                 text-align: center;
             }

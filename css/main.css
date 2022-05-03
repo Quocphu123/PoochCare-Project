@@ -1373,7 +1373,6 @@ h3 {
   }
   .offer .container .row .col {
     width: 100%;
-    padding: 0 1rem;
   }
   .offer .container .row .col .item {
     padding: 0;
@@ -1433,9 +1432,6 @@ h3 {
   .food .container .video iframe {
     width: 500px;
     height: 300px;
-  }
-  .feedbacks .container {
-    padding: 4rem 2rem;
   }
   .feedbacks .container h1 {
     font-size: 1.6rem;
@@ -1564,7 +1560,7 @@ h3 {
 }
 
 .about-us .container {
-  padding: 3rem 1.5rem;
+  padding: 3rem 1rem;
 }
 
 .about-us .container .row {
@@ -1578,9 +1574,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.5rem;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: -15px 0;
 }
 
 .about-us .container .row .item-1 {
@@ -1636,7 +1630,7 @@ h3 {
 .about-us .container .row .item-2 .links-hover {
   font-size: 17px;
   margin-top: 20px;
-  width: 13%;
+  width: 15%;
 }
 
 .history {
@@ -1663,7 +1657,7 @@ h3 {
 }
 
 .history .container {
-  padding: 3rem 1.5rem;
+  padding: 3rem 1rem;
 }
 
 .history .container .content {
@@ -1718,7 +1712,7 @@ h3 {
 }
 
 .reason .reason-main .container {
-  padding: 3rem 1.5rem;
+  padding: 3rem 1rem;
 }
 
 .reason .reason-main .container .row {
@@ -1810,10 +1804,6 @@ h3 {
 .team .team-main {
   padding: 3rem;
   background-color: rgba(147, 107, 232, 0.05);
-}
-
-.team .team-main .container {
-  padding: 1.5rem;
 }
 
 .team .team-main .container .title-content {
@@ -2099,7 +2089,7 @@ h3 {
 }
 
 .photo .photo-info .container {
-  padding: 3rem 1.5rem;
+  padding: 3rem 1rem;
 }
 
 .photo .photo-info .container .photo-grids {
@@ -2165,9 +2155,6 @@ h3 {
 }
 
 @media screen and (max-width: 992px) {
-  .photo .photo-info .container {
-    padding: 0 1.5rem;
-  }
   .photo .photo-info .container .photo-grids {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2207,7 +2194,7 @@ h3 {
 }
 
 .blog .container {
-  padding: 3rem 1.5rem;
+  padding: 3rem 1rem;
 }
 
 .blog .container .heading {
@@ -2251,7 +2238,7 @@ h3 {
 .blog .container .row .card .card-body {
   height: 50%;
   background: #fff;
-  padding: 25px 20px;
+  padding: 15px 20px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   -webkit-box-shadow: 0 25px 98px 0 rgba(147, 107, 232, 0.05);
@@ -2286,7 +2273,7 @@ h3 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .blog .container .row .card .card-body .author a {
@@ -2314,11 +2301,12 @@ h3 {
   display: flex;
   font-size: 1rem;
   color: #888;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .blog .container .row .card .card-body .blog-meta li {
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .blog .container .row .card:hover {
@@ -2372,13 +2360,8 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-  .blog {
-    padding: 1.5rem;
-  }
   .blog .container {
     width: 100%;
-    padding: 0;
-    margin: 0;
   }
   .blog .container .row {
     display: -webkit-box;
@@ -2405,8 +2388,6 @@ h3 {
   }
   .blog .container {
     width: 100%;
-    padding: 0;
-    margin: 0;
   }
   .blog .container .row {
     display: -ms-grid;
@@ -2416,16 +2397,6 @@ h3 {
     grid-gap: 50px;
     margin-top: 20px;
     max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  .blog {
-    padding: 1.5rem;
-  }
-  .blog .container {
-    padding: 0;
-    margin: 0;
   }
 }
 
@@ -2648,12 +2619,6 @@ h3 {
   }
 }
 
-@media screen and (max-width: 576px) {
-  .contact .container {
-    padding: 3rem 0;
-  }
-}
-
 .gallery .container {
   text-align: center;
   padding: 6rem 0;
@@ -2761,9 +2726,6 @@ h3 {
 }
 
 @media screen and (max-width: 576px) {
-  .gallery .container {
-    padding: 4rem 0;
-  }
   .gallery .container .row {
     margin-top: 1rem;
     display: -webkit-box;

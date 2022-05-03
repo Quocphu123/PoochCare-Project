@@ -2,7 +2,7 @@
     .photo-info{
         padding: 3rem 0;
         .container{
-            padding:3rem 1.5rem;
+            padding:3rem 1rem;
             .photo-grids{
                 display: flex;
                 margin-right: -15px;
@@ -56,32 +56,27 @@
     }
 }
 @media screen and (max-width: $tablet){
-    .photo{
-        .photo-info{
-            .container{
-                padding: 0 1.5rem;
-                .photo-grids{
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    margin:0;
-                    padding-bottom: 40px;
-                    padding-top: 40px;
-                    align-items: flex-start;      
-                    width: 100%;
-                    .photo-inf-left{
-                        padding: 0;
-                        width: 100%;
-                    }
-                    .photo-inf-right{
-                        padding: 0;                 
-                        width: 100%;
-                    }
-                    .two-order{
-                        order: 2;
-                    }
-                }
-            }
+    .photo .photo-info .container .photo-grids{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin:0;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        align-items: flex-start;      
+        width: 100%;
+        .photo-inf-left{
+            padding: 0;
+            width: 100%;
         }
+        .photo-inf-right{
+            padding: 0;                 
+            width: 100%;
+        }
+        .two-order{
+            order: 2;
+        }         
+        
     }
 }
