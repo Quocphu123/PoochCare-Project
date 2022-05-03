@@ -59,7 +59,7 @@
                     transition: all 0.5s;
                     border: none;
                     margin-left: 1rem;
-                    padding: 1.2rem 2rem;
+                    padding: 1rem 2rem;
                     font-size: 17px;
                     cursor: pointer;
                     float: right;
@@ -118,5 +118,95 @@
 .map {
     iframe {
         width: 100%;
+        border-radius: 10px;
+        display: block;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: $large-screen) {
+    .contact {
+        .container {
+            padding: 4rem 15px;
+            p {
+                font-size: 2.2rem;
+            }
+            .main {
+                flex-wrap: wrap;
+                .form {
+                    width: 65%;
+                }
+                .info {
+                    padding-left: 1.5rem;
+                    width: 35%;
+                    .item {
+                        i {
+                            padding: 0px 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $laptop) {
+    .contact {
+        .container {
+            padding: 3rem 15px;
+            p {
+                font-size: 2.2rem;
+            }
+            .main {
+                flex-wrap: wrap;
+                .form {
+                    width: 65%;
+                }
+                .info {
+                    padding-left: 1.5rem;
+                    width: 35%;
+                    .item {
+                        i {
+                            padding: 0px 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .contact {
+        .container {
+            padding: 3rem 15px;
+            p {
+                font-size: 2rem;
+            }
+            .main {
+                flex-wrap: wrap;
+                .form {
+                    width: 100%;
+                }
+                .info {
+                    margin-top: 2rem;
+                    padding-left: 0;
+                    width: 100%;
+                    .item {
+                        i {
+                            padding: 0 1.5rem 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .contact {
+        .container {
+            padding: 3rem 0;
+        }
     }
 }
